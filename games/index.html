@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#080808">
+<meta name="description" content="Explore games and experiences from Noahable Studio."><title>Games — Noahable Studio</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23080808'/%3E%3Cpath d='M17 47V17h7l16 19V17h7v30h-7L24 28v19z' fill='white'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+<a class="brand" href="/" aria-label="Noahable Studio home"><span class="brand-mark">N</span><span class="brand-name">NOAHABLE <span>STUDIO</span></span></a>
+<button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+<nav class="main-nav" id="mainNav" aria-label="Main navigation">
+<a href="/">Home</a><a href="/games/" aria-current="page">Games</a><a href="/work/" >Our Work</a><a href="/about/" >Who We Are</a><a href="/ngpt/" >NGPT</a><a class="nav-join" href="/join/" >Join Us <span aria-hidden="true">↗</span></a>
+</nav></header>
+<main id="main" tabindex="-1">
+<section class="section">
+<div class="section-heading"><p class="eyebrow">01 / PLAY</p><h1>Games<span class="period">.</span></h1><p>Experiences built for curiosity, challenge and fun.</p></div>
+<div class="notice-card"><span class="card-index">GAME LIBRARY</span><h2>More worlds are on the way.</h2><p>We're putting together our games collection. Check back as projects are ready to share.</p><span class="pill">UPDATES COMING SOON</span></div>
+<div class="content-grid two"><article class="info-card"><span class="card-index">01 — DEVELOPMENT</span><h3>Roblox experiences</h3><p>Games and ideas made with Roblox Studio, with room for new worlds and experiments.</p><span class="text-muted">Project details will be added here.</span></article><article class="info-card"><span class="card-index">02 — WHAT'S NEXT</span><h3>Future releases</h3><p>We'll share playable links, screenshots and release notes when each project is ready.</p><span class="text-muted">Stay tuned.</span></article></div>
+</section>
+</main>
+<footer class="site-footer"><a class="brand footer-brand" href="/"><span class="brand-mark">N</span><span class="brand-name">NOAHABLE <span>STUDIO</span></span></a><p>Independent ideas. Thoughtfully built.</p><div class="footer-links"><a href="/work/">Our work</a><a href="/join/">Join us</a><a href="https://ngptai010.vercel.app" target="_blank" rel="noopener noreferrer">NGPT ↗</a></div><span class="copyright">© <span id="year"></span> Noahable Studio</span></footer>
+<script>
+(()=>{const nav=document.getElementById('mainNav'),toggle=document.getElementById('menuToggle');toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Close navigation':'Open navigation')});document.getElementById('year').textContent=new Date().getFullYear()})();
+</script>
+</body></html>
