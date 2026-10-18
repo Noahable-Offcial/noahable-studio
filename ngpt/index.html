@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#080808">
+<meta name="description" content="Meet NGPT, the free AI assistant project from Noahable Studio."><title>Introducing NGPT — Noahable Studio</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23080808'/%3E%3Cpath d='M17 47V17h7l16 19V17h7v30h-7L24 28v19z' fill='white'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+<a class="brand" href="/" aria-label="Noahable Studio home"><span class="brand-mark">N</span><span class="brand-name">NOAHABLE <span>STUDIO</span></span></a>
+<button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+<nav class="main-nav" id="mainNav" aria-label="Main navigation">
+<a href="/">Home</a><a href="/games/" >Games</a><a href="/work/" >Our Work</a><a href="/about/" >Who We Are</a><a href="/ngpt/" aria-current="page">NGPT</a><a class="nav-join" href="/join/" >Join Us <span aria-hidden="true">↗</span></a>
+</nav></header>
+<main id="main" tabindex="-1">
+<section class="section">
+<div class="ngpt-hero"><div><p class="eyebrow">04 / A NOAHABLE STUDIO PROJECT</p><h1>Introducing<br>NGPT<span class="period">.</span></h1><p class="section-lead">Your free AI assistant. A project built to make AI tools more accessible and useful.</p><a class="button button-light" href="https://ngptai010.vercel.app" target="_blank" rel="noopener noreferrer">Try NGPT <span>↗</span></a></div><div class="ngpt-mark" aria-hidden="true">N<span>G</span></div></div>
+<div class="section-heading compact"><p class="eyebrow">MADE TO EXPLORE</p><h2>One project. Many possibilities.</h2><p>Explore NGPT on its own website.</p></div>
+<div class="content-grid three"><article class="info-card"><span class="feature-icon">↗</span><h3>Web search</h3><p>Explore information and discover things across the web.</p></article><article class="info-card"><span class="feature-icon">✳</span><h3>Creative tools</h3><p>Tools for exploring ideas and making new things.</p></article><article class="info-card"><span class="feature-icon">◎</span><h3>AI conversations</h3><p>Ask questions, work through ideas and get help with tasks.</p></article></div><p class="fine-print">Features can change as NGPT develops. Visit NGPT for the current experience and availability.</p>
+</section>
+</main>
+<footer class="site-footer"><a class="brand footer-brand" href="/"><span class="brand-mark">N</span><span class="brand-name">NOAHABLE <span>STUDIO</span></span></a><p>Independent ideas. Thoughtfully built.</p><div class="footer-links"><a href="/work/">Our work</a><a href="/join/">Join us</a><a href="https://ngptai010.vercel.app" target="_blank" rel="noopener noreferrer">NGPT ↗</a></div><span class="copyright">© <span id="year"></span> Noahable Studio</span></footer>
+<script>
+(()=>{const nav=document.getElementById('mainNav'),toggle=document.getElementById('menuToggle');toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Close navigation':'Open navigation')});document.getElementById('year').textContent=new Date().getFullYear()})();
+</script>
+</body></html>
